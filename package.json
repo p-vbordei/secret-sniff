@@ -1,6 +1,6 @@
 {
   "name": "secret-sniff",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Scan text for credentials and API keys (AWS, GitHub, Stripe, OpenAI, Anthropic, JWT, PEM, ...). Zero dependencies. Format-anchored — not entropy-guessing.",
   "keywords": [
     "secrets",
