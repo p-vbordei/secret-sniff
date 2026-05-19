@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/p-vbordei/secret-sniff/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/secret-sniff/actions/workflows/ci.yml)
 
+[![npm](https://img.shields.io/npm/v/secret-sniff.svg)](https://www.npmjs.com/package/secret-sniff)
+[![downloads](https://img.shields.io/npm/dm/secret-sniff.svg)](https://www.npmjs.com/package/secret-sniff)
+[![bundle](https://img.shields.io/bundlejs/size/secret-sniff)](https://bundlejs.com/?q=secret-sniff)
+
 Scan text for credentials, API keys, and other secrets. Built around the **published formats** vendors use (`ghp_…`, `AKIA…`, `sk-ant-…`, PEM blocks, JWTs), not entropy guessing — so false positives stay low.
 
 ```ts
