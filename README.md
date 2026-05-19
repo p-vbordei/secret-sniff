@@ -1,5 +1,7 @@
 # secret-sniff
 
+[![ci](https://github.com/p-vbordei/secret-sniff/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/secret-sniff/actions/workflows/ci.yml)
+
 Scan text for credentials, API keys, and other secrets. Built around the **published formats** vendors use (`ghp_…`, `AKIA…`, `sk-ant-…`, PEM blocks, JWTs), not entropy guessing — so false positives stay low.
 
 ```ts
